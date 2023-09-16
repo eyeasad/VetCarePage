@@ -1,0 +1,342 @@
+/* General CSS ----------------------------------------------- */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background: white;
+}
+
+label {
+    font-weight: 400;
+}
+
+input {
+    font-weight: 400;
+}
+
+a {
+    font-weight: 400;
+    text-decoration: none;
+    color: white !important;
+    transition: ease-in .2s;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+}
+
+:root {
+    --nav-bg: #daac00;
+    --primary-bg: #fcc302;
+    --secondary-bg: #00bec9;
+    --footer-bg: #343434;
+}
+
+.p1_py_90px {
+    padding: 90px 0;
+}
+
+/* General CSS ----------------------------------------------- */
+.p1_navBG_dark {
+    background:  var(--nav-bg);
+}
+
+.p1_navBG_light {
+    background:  var(--primary-bg);
+}
+
+/* .p1_logo img {
+    width: auto;
+} */
+
+.p1_Cname {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.p1_Csubtitle {
+    color: white;
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+.p1_navsearch input:focus-visible {
+    outline: none;
+}
+
+.p1_navsearch input:focus {
+    background:  var(--primary-bg);
+    box-shadow: none;
+    color: white;
+}
+
+.p1_navsearch input {
+    border: none;
+    max-width: 200px;
+    max-height: 50px;
+    padding: 8px 8px 8px 14px;
+    background: var(--primary-bg);
+    color: white;
+    border-radius: 0;
+}
+
+.p1_navsearch input::placeholder {
+    color: white;
+}
+
+.p1_navsearch svg {
+    background: var(--secondary-bg);
+    color: white;
+    padding: 12px 24px;
+    margin-top: 5px;
+}
+.p1_navsearch .btn:focus {
+    box-shadow: none;
+}
+
+.p1_navsearch .btn:focus-visible {
+    outline: none;
+}
+.p1_navsearch .btn {
+    padding: 0;
+}
+
+.p1_navBar li a {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.p1_section_1 h1 {
+    font-weight: 600;
+    color: white;
+}
+
+.p1_section_1 p {
+    color: white;
+}
+
+/* .p1_s1_dog img {
+    width: 100%;
+} */
+
+.p1_btnContactUs,
+.p1_btnServices {
+    border: 1px solid white;
+    border-radius: 5px;
+    background: var(--primary-bg);
+    color: white;
+    transition: 0.3s;
+}
+
+.p1_btnContactUs:hover,
+.p1_btnServices:hover {
+    border: 1px solid var(--secondary-bg);
+    background: var(--secondary-bg);
+    color: white;
+}
+
+.p1_section_2 .p1_btnServices {
+    border: 1px solid var(--primary-bg);
+    border-radius: 5px;
+    background: var(--primary-bg);
+    color: white;
+    transition: 0.3s;
+}
+
+.p1_section_2 h1 {
+    font-weight: 600;
+    color: black;
+}
+
+.p1_section_2 p {
+    color: black;
+}
+.p1_s2_dog {
+    position: relative;
+}
+
+.p1_s2_dog img{
+    max-width: 500px;
+    max-height: 500px;
+    /* width: 100%; */
+}
+
+.p1_s2_oranegBlock {
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    max-width: 250px;
+    max-height: 200px;
+    background: var(--primary-bg);
+    margin-top: -170px;
+    margin-left: -33px;
+    z-index: -1;
+}
+
+.p1_s2_playBtn {
+    position: absolute;
+    z-index: 1;
+    margin-top: -275px;
+    margin-left: 200px;
+}
+
+.p1_s2_playBtn button {
+    color: var(--primary-bg);
+    border: none;
+    border-radius: 100%;
+    width: 85px;
+    height: 85px;
+}
+
+.p1_s2_playBtn button svg {
+    font-size: 30px;
+}
+
+.p1_section_3 h1,
+.p1_section_3 h2,
+.p1_section_3 p {
+    color: white;
+}
+
+.p1_section_3 h1 ~ p {
+    /* padding: 0 90px; */
+    font-size: 20px;
+}
+
+.p1_s3_card img {
+    border: 6px solid white;
+}
+
+.p1_section_4 .p1_s4_oranegBlock {
+    /* margin-top: -170px !important;
+    margin-right: -33px !important; */
+}
+
+.p1_s5_btnBuy button{
+    border-radius: 100px;
+    border: 1px solid var(--secondary-bg);
+    background: var(--secondary-bg);
+    color: white;
+    transition: 0.3s;
+}
+
+.p1_section_5 h1,
+.p1_section_5 p {
+    color: white;
+}
+
+.p1_section_6 h1,
+.p1_section_6 p {
+    color: black;
+}
+
+.p1_section_8 h2,
+.p1_section_8 p,
+.p1_section_8 a {
+    color: black !important;
+}
+
+.p1_section_6 h4 {
+    font-weight: 600;
+}
+
+.p1_s6_socialMedia button {
+    background: var(--nav-bg) !important;
+    border: none;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    color: white;
+    margin: 0 3px;
+
+}
+
+.p1_s2_playBtn button svg {
+    font-size: 16px;
+}
+
+.p1_section_7 {
+    background-image: url("../images/Home/s7_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 410px;
+}
+
+.p1_section_7 img {
+    width: auto;
+}
+
+.p1_section_7 .p1_s3_card img {
+    border: none;
+}
+
+.p1_section_7 p {
+    font-size: 25px;
+    color: white;
+}
+
+.p1_section_7 h4 {
+    margin-top: -10px;
+    color: white;
+
+}
+
+.p1_s8_card img {
+    border: none;
+}
+.p1_s8_card_info {
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.p1_s8_card_info:hover {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 12px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.p1_s8_card_info a {
+    color: var(--secondary-bg) !important;
+}
+
+.p1_s8_card_info span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.p1_section_9 {
+    background: var(--footer-bg);
+}
+
+.p1_section_9 p {
+    color: white;
+}
+
+.p1_section_9 .p1_s6_socialMedia button {
+    background: white !important;
+    color: black;
+}
+
+.p1_section_9 .p1_navsearch input {
+    min-width: 320px;
+}
